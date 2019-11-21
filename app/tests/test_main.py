@@ -1,8 +1,10 @@
 """
 Test modules for:
 
-module_goes_here.__main__
+jabiru.__main__
 """
+
+from jabiru.__main__ import main
 
 
 def test_main():
@@ -11,8 +13,6 @@ def test_main():
     executes successfully with a result of `None`
     """
     # Setup
-    from module_goes_here.__main__ import main
-
     # Exercise
     result = main()  # pylint: disable=assignment-from-no-return
     # Verify
