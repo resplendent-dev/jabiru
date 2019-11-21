@@ -1,1 +1,1 @@
-3Amigos Python GitHub Template
+A javascript language filter for pyspelling
